@@ -1,23 +1,17 @@
-# Abaikan folder Virtual Environment (karena ukurannya besar dan spesifik komputer)
 venv/
 .venv/
 
-# Abaikan folder Dataset (Ribuan gambar tidak boleh masuk Git, GitHub akan menolak)
 dataset/
 
-# Abaikan file cache Python dan Jupyter
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Abaikan file sistem Mac
 .DS_Store
 
-# Abaikan model hasil training (Biasanya >100MB, GitHub Free menolak file >100MB)
-# Jika kamu ingin menyimpan model, nanti bisa pakai Git LFS, tapi untuk sekarang ignore saja dulu
 *.keras
 *.h5
 *.json
+haarcascade_frontalface_default.xml
 
-# Abaikan folder VS Code settings
 .vscode/
